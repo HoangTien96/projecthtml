@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/main.css">
+    <link rel="stylesheet" href="asset/base.css">
+    <link rel="stylesheet" href="asset/cart.css">
+    <link rel="stylesheet" href="asset/product.css">
+    <!-- <link rel="stylesheet" href="js/main.js"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ======== Swiper Js ======= -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css"
+    />
+
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+    <title>Nature</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="header__lists">
+                    <ul class="header__list-item">
+                        <il class="header__item"><a href="" class="header__item-bar">Home</a></il>
+                        <il class="header__item"><a href="" class="header__item-bar">Product</a></il>
+                        <il class="header__item header__item-banar"><a href="#" class="header__item-bar">
+                            Shop
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                            <div class="header__containers">
+                                <div class="header__shop">
+                                    <div class="header__shop-row">
+                                        <img class="header__shop-img" src="images/nav.png" alt="">
+                                    </div>
+                                    <div class="header__shop-row header__shop-padding">
+                                        <h3>Shop Layout</h3>
+                                        <ul class="header__menu">
+                                            <li class="header__menu-small">
+                                                <a href="" class="header__menu-item">Shop With Background</a>
+                                            </li>
+                                            <li class="header__menu-small">    
+                                                <a href="" class="header__menu-item">Shop Mini Categories</a>
+                                            </li> 
+                                            <li class="header__menu-small">
+                                                <a href="" class="header__menu-item">Shop Only Categories</a>
+                                            </li>
+                                            <li class="header__menu-small">    
+                                                <a href="" class="header__menu-item">Shop Icon Categories</a>
+                                            </li>                                                
+                                        </ul>
+                                    </div>
+                                    <div class="header__shop-row header__shop-padding">
+                                        <h3>Filter Layout</h3>
+                                        <ul class="header__menu">
+                                            <li class="header__menu-small">
+                                                <a href="" class="header__menu-item">Sidebar</a>
+                                            </li>
+                                            <li class="header__menu-small">    
+                                                <a href="" class="header__menu-item">Filter Default</a>
+                                            </li>   
+                                            <li class="header__menu-small">
+                                                <a href="" class="header__menu-item">Filter Drawer</a>
+                                            </li>
+                                            <li class="header__menu-small">    
+                                                <a href="" class="header__menu-item">Filter Dropdown</a>
+                                            </li>                                             
+                                        </ul>
+                                    </div>
+                                    <div class="header__shop-row header__shop-padding">
+                                        <h3>Product Layout</h3>
+                                        <ul class="header__menu">
+                                            <li class="header__menu-small">
+                                                <a href="" class="header__menu-item">Layout Zoom</a>
+                                            </li>
+                                            <li class="header__menu-small">    
+                                                <a href="" class="header__menu-item">Layout Sticky</a>
+                                             </li>  
+                                             <li class="header__menu-small">
+                                                <a href="" class="header__menu-item">Layout Sticky 2</a>
+                                            </li>
+                                            <li class="header__menu-small">    
+                                                <a href="" class="header__menu-item">Layout Scroll</a>
+                                             </li>                                               
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </il>
+                        <il class="header__item"><a href="" class="header__item-bar">Blog</a></il>
+                        <il class="header__item header__item-vendors"><a href="" class="header__item-bar">
+                            Vendors
+                            <i class="fas fa-chevron-down"></i></a>
+                            <div class="header__container-vendors">
+                                <ul class="header__vendors">
+                                    <li class="header__vendor-item">
+                                        <a href="" class="header__vendor-bar">Vendor Store listings</a>
+                                    </li>
+                                    <li class="header__vendor-item">
+                                        <a href="" class="header__vendor-bar">Store Details</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </il>
+                        <il class="header__item header__item-pages "><a href="" class="header__item-bar">
+                            Page
+                            <i class="fas fa-chevron-down"></i></a>
+                            <div class="header__container-page">
+                                <ul class="header__pages">
+                                    <li class="header__page-item">
+                                        <a href="" class="header__page-bar">About</a>
+                                    </li>
+                                    <li class="header__page-item">
+                                        <a href="" class="header__page-bar">Contact</a>
+                                    </li>
+                                    <li class="header__page-item">
+                                        <a href="" class="header__page-bar">Faq</a>
+                                    </li>
+                                    <li class="header__page-item">
+                                        <a href="" class="header__page-bar">Page 404</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </il>
+                        <il class="header__item"><a href="" class="header__item-icon">
+                            <span class="header__item-icon">
+                                <img class="header__item-img" src="images/shoppingBag.svg" alt="">
+                            </span>
+                            <span class="header__item-icon">
+                                <img class="header__item-img" src="images/search.svg" alt="">
+                            </span>
+                        </a></il>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="filter">
+            <div class="filter__bar">
+                <div class="bar__header">
+                    <h3>Category</h3>
+                    <ul class="bar__list">
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Shoes</span>
+                                <small>(10)</small>
+                            </label>
+                        </li>
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Bags</span>
+                                <small>(7)</small>
+                            </label>
+                        </li>
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Accessories </span>
+                                <small>(3)</small>
+                            </label>
+                        </li>
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Clothings </span>
+                                <small>(3)</small>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bar__body">
+                    <h3>Brands</h3>
+                    <ul class="bar__list">
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Shoes</span>
+                                <small>(10)</small>
+                            </label>
+                        </li>
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Bags</span>
+                                <small>(7)</small>
+                            </label>
+                        </li>
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Accessories </span>
+                                <small>(3)</small>
+                            </label>
+                        </li>
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Clothings </span>
+                                <small>(3)</small>
+                            </label>
+                        </li>
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Shoes</span>
+                                <small>(10)</small>
+                            </label>
+                        </li>
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Bags</span>
+                                <small>(7)</small>
+                            </label>
+                        </li>
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Accessories </span>
+                                <small>(3)</small>
+                            </label>
+                        </li>
+                        <li class="bar__item">
+                            <input type="checkbox">
+                            <label for="">
+                                <span>Clothings </span>
+                                <small>(3)</small>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="filter__container">
+                 <div class="contect__header">
+                    <div class="contect__item">
+                        <label for="">Sort By</label>
+                        <select name="sort-by">
+                            <option value="" select="select" >Name</option>
+                            <option value="">Price</option>
+                            <option value="">Relevance</option>
+                            <option value="">Newness</option>
+                        </select>
+                    </div>
+                    <div class="contect__item">
+                        <label for="">Order</label>
+                        <select name="order">
+                            <option value="" select="select">ASC</option>
+                            <option value="">DESC</option>
+                            
+                        </select>
+                    </div>
+                    <a href="">Apply</a>
+                 </div>
+                 <div class="contect__body">
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-1.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-2.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-3.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-4.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-5.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-6.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-7.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-8.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-9.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-10.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-11.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-12.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-13.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-14.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__over product__size">
+                        <div class="product__swiper-container">
+                            <div class="product__slide">
+                                <img src="images/product-14.jpg" alt=""> 
+                                <div class="product__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="product__icon-item">
+                                    <li class="product__item">
+                                        <i class="fas fa-search"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="far fa-heart"></i>
+                                    </li>
+                                    <li class="product__item">
+                                        <i class="fas fa-sliders-h"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__banner">
+                                <a href="">Bambi Print Mini Backpack</a>
+                                <br>
+                                <span>$150</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 <ul class="contect__footer">
+                    <li class="pagination">
+                        <span>1</span>
+                    </li>
+                    <li class="pagination">
+                        <span>2</span>
+                    </li>
+                    <li class="pagination">
+                        <span>»</span>
+                    </li>
+                    <li class="pagination">
+                        <span>Last »</span>
+                        
+                    </li>
+                 </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__container">
+                <div class="list">
+                    <h3>EXTRAS</h3>
+                    <a href="">Brands</a>
+                    <a href="">Gift Certificates</a>
+                    <a href="">Affiliate</a>
+                    <a href="">Specials</a>
+                    <a href="">Site Map</a>
+                </div>
+                <div class="list">
+                    <h3>INFORMATION</h3>
+                    <a href="">About Us</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms & Conditions</a>
+                    <a href="">Contact Us</a>
+                    <a href="">Site Map</a>
+                </div>
+                <div class="list">
+                    <h3>MY ACCOUNT</h3>
+                    <a href="">My Account</a>
+                    <a href="">Order History</a>
+                    <a href="">Wish List</a>
+                    <a href="">Newsletter</a>
+                    <a href="">Returns</a>
+                </div>
+                <div class="list">
+                    <h3>CONTACT US</h3>
+                    <div class="icon_text">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        42 Dream House, Dreammy street, 7131 Dreamville, USA
+                    </div>
+                    <div class="icon_text">
+                        <span>
+                            <i class="far fa-envelope"></i>
+                        </span>
+                        company@gmail.com
+                    </div>
+                    <div class="icon_text">
+                        <span>
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        456-456-4512
+                    </div>
+                    <div class="footer__img">
+                        <img src="images/payment.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
